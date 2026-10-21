@@ -35,7 +35,11 @@ Prüfe jede rechtliche Aussage gegen ihre Quelle. Für jede Aussage notierst du 
 - Bitte um Antwort im Stil: „1 freigeben, 2 Hook ändern auf …, 3 verwerfen“
 
 ## 6. Nach der Freigabe (wenn der Nutzer in dieser Sitzung antwortet)
-- Änderungen umsetzen, neu rendern, prüfen
-- Status `freigegeben` setzen und Veröffentlichungstermin vorschlagen. Beste Zeiten im B2B: LinkedIn Di–Do 7:30–8:30, Facebook Mi/Do 18–19 Uhr.
-- Finale MP4 plus fertige Caption-Texte zum Kopieren schicken
-- Commit und Push
+Nur bei **ausdrücklicher Freigabe** eines bestimmten Reels („1 freigeben“). Unklare Antworten wie „sieht gut aus“ oder „ok“ führen zu einer Rückfrage, nicht zur Planung.
+
+1. Gewünschte Änderungen umsetzen, neu rendern und alle Szenenbilder prüfen. Wenn der Inhalt geändert wurde, schickst du das Video erneut und wartest auf die erneute Freigabe.
+2. **Video öffentlich ablegen:** Klone `ITsDatenschutz/reels-medien` (add_repo, access "push") und kopiere die finale MP4 nach `JJJJ/<dateiname>.mp4`. Danach Commit und Push. URL: `https://raw.githubusercontent.com/ITsDatenschutz/reels-medien/main/JJJJ/<dateiname>.mp4`. Prüfe mit `curl -sI`, dass sie HTTP 200 liefert. **Dort landen niemals Entwürfe.**
+3. **Termine bestimmen:** `getBestTimeToPostByNetwork` (Metricool, brandId `7559109`, Zeitzone Europe/Berlin) für die kommenden 7 Tage. Ohne Daten gilt: LinkedIn Di–Do 7:30–8:30, Facebook und Instagram Mi/Do 18–19 Uhr.
+4. **In Metricool einplanen** mit `createScheduledPost`: ein Post pro Netzwerk, Text aus der Captions-Datei, `media` = öffentliche URL, `autoPublish: true`, `draft: false`. Facebook: `facebookData.type = "REEL"`. Instagram: `instagramData.type = "REEL"`. Plane nur Netzwerke ein, die in `getBrandSettings` verbunden sind.
+5. Status im Redaktionsplan auf `geplant` setzen, mit Terminen und `plannerUrl` in den Notizen. Danach Commit und Push in `marketing`.
+6. Bestätigung an den Nutzer: je Netzwerk Datum, Uhrzeit und Planner-Link, dazu der Hinweis: „Bis zum Termin in Metricool stoppbar.“

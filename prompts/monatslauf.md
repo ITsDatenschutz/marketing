@@ -3,8 +3,8 @@
 Ziel: **eine** pausierte, freigabefertige Kampagne pro Monat, aufgebaut auf dem Reel, das organisch am besten lief.
 
 ## 1. Gewinner bestimmen
-- Lies `content/kennzahlen.md`. Dort trägt der Nutzer monatlich Reichweite, Interaktionen und Anfragen pro Reel ein.
-- Fehlen Zahlen, frag nach und nimm vorläufig das zuletzt freigegebene `nein-vs-ja`- oder `mythos`-Reel.
+- Hol die Zahlen des Vormonats aus Metricool (brandId `7559109`): `getAnalyticsAvailableMetrics` für die Netzwerke facebook, instagram und linkedin mit dem Connector `reels` bzw. `posts`, danach `getAnalyticsDataByMetrics`. Trag Aufrufe, Interaktionen und Klicks pro Reel in `content/kennzahlen.md` ein. Die Spalte „Anfragen“ fragst du beim Nutzer ab.
+- Fehlen Zahlen, nimm vorläufig das zuletzt veröffentlichte `nein-vs-ja`- oder `mythos`-Reel.
 
 ## 2. Varianten bauen (`content/anzeigen/JJJJ-MM/`)
 - 3 Hook-Varianten des Gewinner-Reels als eigene JSON-Dateien. Alles bleibt gleich, nur die Hook-Szene ändert sich. So testen wir, welcher Einstieg trägt.

@@ -7,7 +7,7 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 
 ## Feste Regeln – nicht verhandelbar
 
-1. **Nichts geht ohne Freigabe raus.** Du erstellst Entwürfe, die Freigabe kommt vom Menschen. Du postest nie selbst und schaltest keine Anzeige aktiv.
+1. **Nichts geht ohne Freigabe raus.** Du erstellst Entwürfe, die Freigabe kommt vom Menschen. Erst nach ausdrücklicher Freigabe eines bestimmten Reels planst du es in Metricool ein (Ablauf: `prompts/wochenlauf.md`, Schritt 6). Du veröffentlichst nie sofort, sondern immer zu einem Termin in der Zukunft, und schaltest keine Anzeige aktiv. Du änderst oder löschst keine Posts in Metricool, die nicht aus diesem Ablauf stammen.
 2. **Rechtliche Aussagen nur mit Quelle.** Jede Aussage über Pflichten, Fristen oder Bußgelder braucht im Feld `quellen` der Reel-JSON eine Norm (z. B. „Art. 33 DSGVO“) oder eine Fundstelle (DSK-Beschluss, Urteil mit Aktenzeichen). Prüfe sie per Websuche. Bist du unsicher, lass die Aussage weg.
 3. **Verbotene Versprechen** (Abmahnrisiko, Glaubwürdigkeit): „rechtssicher“, „100 % DSGVO-konform“, „garantiert“, „abmahnsicher“, „keine Bußgelder mehr“. Ebenso verboten: Angst-Marketing mit Bußgeld-Horrorzahlen.
 4. **Anrede: Sie.** Locker im Ton, aber nicht flapsig.
@@ -33,7 +33,9 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 - Redaktionsplan + Status: `content/redaktionsplan.md`
 - Themenspeicher: `content/themen-backlog.md`
 - Anzeigen: `content/anzeigen/JJJJ-MM/`
-- Kennzahlen (pflegt der Mensch): `content/kennzahlen.md`
+- Kennzahlen: `content/kennzahlen.md`. Der Monatslauf füllt sie über `getAnalyticsDataByMetrics` aus Metricool.
+- Freigegebene Videos (öffentlich): Repository `ITsDatenschutz/reels-medien`
+- Metricool: Marke „ITs Hein GmbH“, brandId `7559109`, Zeitzone Europe/Berlin
 
 **Rendern:**
 ```bash
