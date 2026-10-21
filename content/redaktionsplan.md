@@ -4,7 +4,7 @@ Status: `idee` → `entwurf` → `freigegeben` → `geplant` → `veröffentlich
 
 | Termin | Titel | Format | Reel-Datei | Status | Kanäle | Notizen |
 |---|---|---|---|---|---|---|
-| 2026-10-23 | Vorstellung: Wer steckt hinter ITs Hein? | vorstellung | `reels/2026-10-23-vorstellung.json` | entwurf | FB, IG | Start-Tag 10:00; wartet auf Freigabe; Inhalte von der Website. Persönliches Handyvideo später zusätzlich |
+| 2026-10-23 | Vorstellung: Wer steckt hinter ITs Hein? | vorstellung | `reels/2026-10-23-vorstellung.json` | geplant | FB, IG | Fr 10:00 · FB https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=-5952928801583054385 · IG https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=-1301399671592105284 · persönliches Handyvideo später zusätzlich |
 | 2026-10-23 | Nein vs. Ja | nein-vs-ja | `reels/2026-10-23-nein-vs-ja.json` | geplant | FB, IG | Fr 12:00 · FB https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=5683807373590675912 · IG https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=2900483863446572823 |
 | 2026-10-23 | Mythos #1: Unter 20 Leuten kein Datenschutz | mythos | `reels/2026-10-23-mythos-20-mitarbeiter.json` | geplant | FB, IG | Fr 15:00 · FB https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=2252515201034568044 · IG https://app.metricool.com/planner/calendar?blogId=7559109&openWithPostUuid=-5964469348954257946 · alten FB-Testentwurf (28.10.) löscht der Nutzer |
 | – | Aktuell: Fällt die DSB-Pflicht weg? | aktuell | (gelöscht, siehe Git-Historie) | verworfen | – | vom Nutzer am 21.10. verworfen |
