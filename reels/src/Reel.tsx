@@ -267,7 +267,7 @@ const Ende: React.FC<{ s: EndScene }> = ({ s }) => {
   const pulse = 1 + Math.sin(Math.max(0, frame - 40) / 5) * 0.025;
   return (
     <Safe>
-      <div style={{ ...HEAD, fontSize: 108, lineHeight: 1.02, color: F.text, opacity: a, transform: `translateY(${(1 - a) * 40}px)` }}>
+      <div style={{ ...HEAD, fontSize: fit(`${s.claim ?? brand.claim}\n${s.claimAkzent ?? brand.claimAkzent}`, 108, 820), lineHeight: 1.02, color: F.text, opacity: a, transform: `translateY(${(1 - a) * 40}px)` }}>
         <Zeilen text={s.claim ?? brand.claim} />
         <br />
         <span style={{ color: F.lime }}>{s.claimAkzent ?? brand.claimAkzent}</span>

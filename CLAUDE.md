@@ -45,5 +45,5 @@ cd reels && npm ci && node scripts/render.mjs ../content/reels/<datei>.json --st
 
 Wochenlauf: `prompts/wochenlauf.md` · Monatslauf Anzeigen: `prompts/monatslauf.md`
 
-## Offene Markenentscheidung
-Claim auf der Endkarte ist derzeit „Datenschutz, der hilft.“. Die Website nutzt „Datenschutz ist Partnerschaft“. Ändere den Claim nur in `reels/src/brand.ts`, wenn der Nutzer entschieden hat.
+## Claim
+Der Claim auf der Endkarte lautet „Datenschutz ist Partnerschaft.“ (wie auf der Website). Er steht nur in `reels/src/brand.ts`. Verwende ihn auch in Captions sinngemäß und erfinde keine weiteren Slogans.

@@ -3,7 +3,7 @@
 Stand: 21.10.2026
 
 ## Ziel
-Regelmäßig sichtbar sein mit der Botschaft **„Datenschutz, der hilft statt verhindert“**. Daraus sollen Erstgespräche über its-datenschutz.de entstehen.
+Regelmäßig sichtbar sein mit dem Claim **„Datenschutz ist Partnerschaft.“** und der Botschaft: Wir helfen, statt zu verhindern. Daraus sollen Erstgespräche über its-datenschutz.de entstehen.
 
 ## Grundsatz
 Alles bis „fertig zur Freigabe“ läuft automatisch. **Freigabe, Veröffentlichung und Anzeigen-Aktivierung bleiben beim Menschen.** Für einen Datenschutzberater wäre eine fehlerhafte Rechtsaussage in einer Anzeige teurer als jede eingesparte Minute.
@@ -46,6 +46,6 @@ Alles bis „fertig zur Freigabe“ läuft automatisch. **Freigabe, Veröffentli
 Die Qualitätsregeln stehen in `CLAUDE.md`: Quellenpflicht für Rechtsaussagen, verbotene Versprechen („rechtssicher“, „100 % konform“), Siezen, Anonymisierung.
 
 ## Offene Entscheidungen
-- [ ] Claim: „Datenschutz, der hilft.“ oder „Datenschutz ist Partnerschaft“ (Website)?
+- [x] Claim: „Datenschutz ist Partnerschaft.“ (einheitlich mit der Website)
 - [ ] Anzeigenbudget pro Monat
 - [ ] Wer schaltet Anzeigen frei?
