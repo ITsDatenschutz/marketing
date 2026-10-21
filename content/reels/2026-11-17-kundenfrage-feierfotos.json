@@ -1,0 +1,22 @@
+{
+  "titel": "Kundenfrage – Fotos von der Firmenfeier posten?",
+  "format": "kundenfrage",
+  "quellen": [
+    "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung als Rechtsgrundlage)",
+    "Art. 7 Abs. 1 DSGVO (Einwilligung muss nachweisbar sein)",
+    "Art. 7 Abs. 3 DSGVO (Widerruf jederzeit)",
+    "Art. 7 Abs. 4, Art. 4 Nr. 11 DSGVO, ErwG 43; § 26 Abs. 2 BDSG (Freiwilligkeit im Beschäftigungsverhältnis)",
+    "Art. 17 Abs. 1 lit. b DSGVO (Löschung nach Widerruf)",
+    "§ 22 KUG (Veröffentlichung von Bildnissen nur mit Einwilligung)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Dürfen wir die\nFeier-Fotos\nposten?“" },
+    { "typ": "statement", "dauer": 1.5, "text": "Ja – mit\nEinwilligung.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "ganz entspannt:", "karten": [
+      { "frage": "Vorher?", "antwort": "Kurz fragen und die Zustimmung festhalten." },
+      { "frage": "Freiwillig?", "antwort": "Ja. Wer Nein sagt, hat keinen Nachteil." },
+      { "frage": "Später Nein?", "antwort": "Widerruf geht jederzeit – dann Foto raus." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

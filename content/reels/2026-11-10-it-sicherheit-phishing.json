@@ -1,0 +1,18 @@
+{
+  "titel": "IT-Sicherheit – Phishing-Mail erkennen",
+  "format": "it-sicherheit",
+  "quellen": [
+    "BSI: E-Mail, Phishing und Bankbetrug – Erkennungsmerkmale (gefälschte Absender, Drohungen/Handlungsdruck, Aufforderung zur Dateneingabe)",
+    "BSI-Warnungen 2026 zu KI-gestütztem Phishing und Business-E-Mail-Compromise (Sekundärquelle borncity.com, 01.03.2026)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Ist diese Mail echt?", "stempel": "„Ihr Konto\nwird gesperrt!“", "nachsatz": "Bitte sofort klicken." },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Sofort klicken.", "Passwort eingeben.", "Niemandem sagen."], "fazit": "…genau das wollen Betrüger." },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "in 3 Sekunden.", "karten": [
+      { "frage": "Absender?", "antwort": "Echte Adresse prüfen, nicht nur den Namen." },
+      { "frage": "Zeitdruck?", "antwort": "Eile und Drohungen sind Warnzeichen." },
+      { "frage": "Schon geklickt?", "antwort": "Sofort der IT melden – ohne Scham. Zeit zählt." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
