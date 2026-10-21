@@ -1,7 +1,7 @@
 import React from 'react';
 import { Composition } from 'remotion';
 import { Reel } from './Reel';
-import { FPS, sek, type ReelData } from './types';
+import { FPS, framesVon, type ReelData } from './types';
 import beispiel from '../../content/reels/2026-10-23-nein-vs-ja.json';
 
 export const Root: React.FC = () => (
@@ -14,7 +14,7 @@ export const Root: React.FC = () => (
     durationInFrames={450}
     defaultProps={beispiel as ReelData}
     calculateMetadata={({ props }) => ({
-      durationInFrames: props.szenen.reduce((sum, s) => sum + sek(s.dauer), 0),
+      durationInFrames: props.szenen.reduce((sum, s) => sum + framesVon(s), 0),
     })}
   />
 );

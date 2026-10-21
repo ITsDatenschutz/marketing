@@ -24,7 +24,7 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 | `it-sicherheit` | hook → liste(nein: typische Fehler) → karten (so geht's) → ende | – |
 | `kundenfrage` | hook („Kundenfrage der Woche:“) → statement → karten → ende | – |
 
-**Länge:** 12–18 Sekunden. **Text:** pro Zeile höchstens etwa 16 Zeichen in Stempel und Statements, Kartenfragen höchstens 18 Zeichen, Antworten höchstens 60 Zeichen. Das Schema steht in `reels/src/types.ts`.
+**Länge:** ergibt sich automatisch aus der Textmenge (Lesezeit, `reels/src/types.ts` → `LESETEMPO`), meist 20–24 Sekunden. Das Feld `dauer` ist nur ein Mindestwert. Mehr Text heißt längeres Reel, deshalb lieber kürzen. **Text:** pro Zeile höchstens etwa 16 Zeichen in Stempel und Statements, Kartenfragen höchstens 18 Zeichen, Antworten höchstens 60 Zeichen. Das Schema steht in `reels/src/types.ts`.
 
 ## Dateien & Ablauf
 

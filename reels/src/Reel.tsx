@@ -16,7 +16,7 @@ import '@fontsource/montserrat/800.css';
 import '@fontsource/montserrat/900.css';
 import { brand } from './brand';
 import {
-  sek,
+  framesVon,
   type EndScene,
   type HookScene,
   type KartenScene,
@@ -159,11 +159,11 @@ const Punkt: React.FC<{ text: string; delay: number; art: 'nein' | 'ja' }> = ({ 
 
 const Liste: React.FC<{ s: ListeScene }> = ({ s }) => {
   const frame = useCurrentFrame();
-  const fazitStart = s.punkte.length * 18 + 4;
+  const fazitStart = s.punkte.length * 26 + 6;
   return (
     <Safe>
       {s.punkte.map((p, i) => (
-        <Punkt key={i} text={p} delay={i * 18} art={s.art} />
+        <Punkt key={i} text={p} delay={i * 26} art={s.art} />
       ))}
       {s.fazit && (
         <div
@@ -252,7 +252,7 @@ const Karten: React.FC<{ s: KartenScene }> = ({ s }) => {
         )}
       </div>
       {s.karten.slice(0, 3).map((k, i) => (
-        <Karte key={i} frage={k.frage} antwort={k.antwort} delay={20 + i * 22} />
+        <Karte key={i} frage={k.frage} antwort={k.antwort} delay={24 + i * 34} />
       ))}
     </Safe>
   );
@@ -307,11 +307,11 @@ const Hintergrund: React.FC<{ szenen: Scene[] }> = ({ szenen }) => {
   let t = 0;
   let glow: string = F.lime;
   for (const s of szenen) {
-    if (frame < t + sek(s.dauer)) {
+    if (frame < t + framesVon(s)) {
       glow = istNegativ(s) ? F.rot : F.lime;
       break;
     }
-    t += sek(s.dauer);
+    t += framesVon(s);
   }
   return (
     <AbsoluteFill style={{ background: F.bg }}>
@@ -352,7 +352,7 @@ export const Reel: React.FC<ReelData> = ({ szenen }) => (
     <Hintergrund szenen={szenen} />
     <Series>
       {szenen.map((s, i) => (
-        <Series.Sequence key={i} durationInFrames={sek(s.dauer)}>
+        <Series.Sequence key={i} durationInFrames={framesVon(s)}>
           <SzeneView s={s} />
         </Series.Sequence>
       ))}
