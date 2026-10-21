@@ -1,0 +1,16 @@
+{
+  "titel": "Mythos #1 – Unter 20 Mitarbeitern kein Datenschutz",
+  "format": "mythos",
+  "quellen": ["Art. 2, Art. 37 Abs. 1 DSGVO", "§ 38 Abs. 1 BDSG"],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 1:", "stempel": "„Unter 20 Leuten?\nBetrifft uns\nnicht.“" },
+    { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },
+    { "typ": "karten", "dauer": 5.5, "titel": "Was wirklich gilt:", "karten": [
+      { "frage": "DSGVO?", "antwort": "Gilt ab der ersten Kundenadresse." },
+      { "frage": "DSB-Pflicht?", "antwort": "Pflicht ab 20 Personen, die ständig mit Daten arbeiten." },
+      { "frage": "Auch früher?", "antwort": "Ja – z. B. bei sensiblen Daten als Kerngeschäft." }
+    ] },
+    { "typ": "statement", "dauer": 1.5, "text": "Wir klären's\nin 15 Minuten.", "farbe": "gruen" },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

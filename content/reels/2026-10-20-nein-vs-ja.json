@@ -1,0 +1,15 @@
+{
+  "titel": "Reel 1 – Nein vs. Ja",
+  "format": "nein-vs-ja",
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Kennen Sie diesen Datenschützer?", "stempel": "„Das geht\nso nicht.“", "nachsatz": "Ende der Durchsage." },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Kein WhatsApp.", "Kein Analytics.", "Keine Teamfotos."], "fazit": "…und Ihr Projekt liegt auf Eis." },
+    { "typ": "statement", "dauer": 1.5, "text": "Wir\nmachen's\nanders.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 5, "titel": "Wir sagen:", "titelAkzent": "Ja – so geht's.", "karten": [
+      { "frage": "Neues Tool?", "antwort": "Wir prüfen, wie es sauber geht." },
+      { "frage": "Website?", "antwort": "Sauber aufgestellt, ohne Kopfschmerz." },
+      { "frage": "Teamfotos?", "antwort": "Vorlage. Unterschrift. Fertig." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
