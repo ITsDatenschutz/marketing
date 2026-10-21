@@ -1,6 +1,6 @@
 # Wochenlauf (jeden Montag früh)
 
-Ziel: Bis Montagmorgen liegen **drei freigabefertige Reel-Entwürfe** beim Nutzer, die ihn höchstens 15 Minuten kosten.
+Ziel: Bis Montagmorgen liegen **freigabefertige Reel-Entwürfe** für die kommenden Freitage beim Nutzer, die ihn höchstens 15 Minuten kosten.
 
 ## 1. Lage prüfen
 - Lies `CLAUDE.md`, `content/redaktionsplan.md` und `content/themen-backlog.md`.
@@ -18,7 +18,9 @@ Quellen, jeweils nur Neues seit dem letzten Lauf:
 
 Auswahlkriterien: Betrifft es kleine und mittlere Betriebe, Vereine oder Gemeinden? Lässt es sich in 15 Sekunden **positiv** lösen („so geht's“)? Wenn nicht, ist es kein Reel.
 
-## 3. Drei Entwürfe bauen
+## 3. Entwürfe bauen
+**Menge:** Zähle im Redaktionsplan die Entwürfe und freigegebenen Reels für kommende Freitage. Sind es **3 oder mehr**, baust du nur **1** neuen Entwurf, sonst so viele, dass wieder 3 Freitage abgedeckt sind (höchstens 3). Jeder neue Entwurf bekommt den nächsten freien Freitag als Datum.
+
 Für jedes Thema:
 1. Reel-JSON nach Schema (`reels/src/types.ts`), mit `quellen`
 2. Captions-Datei mit LinkedIn-, Facebook- und Instagram-Version
@@ -31,7 +33,7 @@ Prüfe jede rechtliche Aussage gegen ihre Quelle. Für jede Aussage notierst du 
 ## 5. Abgeben
 - Commit und Push nach `main`: `Wochenlauf KW xx: 3 Entwürfe`
 - Schicke die drei MP4s mit je einer Zeile: Format, Thema, warum jetzt.
-- Push-Benachrichtigung: „3 Reel-Entwürfe für KW xx liegen zur Freigabe bereit.“
+- Push-Benachrichtigung: „Reel-Entwürfe für KW xx liegen zur Freigabe bereit.“
 - Bitte um Antwort im Stil: „1 freigeben, 2 Hook ändern auf …, 3 verwerfen“
 
 ## 6. Nach der Freigabe (wenn der Nutzer in dieser Sitzung antwortet)
@@ -39,7 +41,7 @@ Nur bei **ausdrücklicher Freigabe** eines bestimmten Reels („1 freigeben“).
 
 1. Gewünschte Änderungen umsetzen, neu rendern und alle Szenenbilder prüfen. Wenn der Inhalt geändert wurde, schickst du das Video erneut und wartest auf die erneute Freigabe.
 2. **Video öffentlich ablegen:** Klone `ITsDatenschutz/reels-medien` (add_repo, access "push") und kopiere die finale MP4 nach `JJJJ/<dateiname>.mp4`. Danach Commit und Push. URL: `https://raw.githubusercontent.com/ITsDatenschutz/reels-medien/main/JJJJ/<dateiname>.mp4`. Prüfe mit `curl -sI`, dass sie HTTP 200 liefert. **Dort landen niemals Entwürfe.**
-3. **Termine bestimmen:** `getBestTimeToPostByNetwork` (Metricool, brandId `7559109`, Zeitzone Europe/Berlin) für die kommenden 7 Tage. Ohne Daten gilt: LinkedIn Di–Do 7:30–8:30, Facebook und Instagram Mi/Do 18–19 Uhr.
+3. **Termin bestimmen:** Es ist der Freitag aus dem Dateinamen. Die Uhrzeit liefert `getBestTimeToPostByNetwork` (Metricool, brandId `7559109`, Zeitzone Europe/Berlin) für diesen Freitag, gewählt wird die beste Stunde zwischen 9 und 13 Uhr. Ohne Daten gilt: Facebook und Instagram 11:00, LinkedIn 8:00.
 4. **In Metricool einplanen** mit `createScheduledPost`: ein Post pro Netzwerk, Text aus der Captions-Datei, `media` = öffentliche URL, `autoPublish: true`, `draft: false`. Facebook: `facebookData.type = "REEL"`. Instagram: `instagramData.type = "REEL"`. Plane nur Netzwerke ein, die in `getBrandSettings` verbunden sind.
 5. Status im Redaktionsplan auf `geplant` setzen, mit Terminen und `plannerUrl` in den Notizen. Danach Commit und Push in `marketing`.
 6. Bestätigung an den Nutzer: je Netzwerk Datum, Uhrzeit und Planner-Link, dazu der Hinweis: „Bis zum Termin in Metricool stoppbar.“

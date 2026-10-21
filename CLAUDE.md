@@ -18,8 +18,8 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 
 | Format | Aufbau (Szenen-Typen) | Beispiel |
 |---|---|---|
-| `nein-vs-ja` | hook → liste(nein) → statement → karten → ende | `content/reels/2026-10-20-nein-vs-ja.json` |
-| `mythos` | hook → statement(rot „Leider falsch.“) → karten → statement → ende | `content/reels/2026-10-27-mythos-20-mitarbeiter.json` |
+| `nein-vs-ja` | hook → liste(nein) → statement → karten → ende | `content/reels/2026-10-23-nein-vs-ja.json` |
+| `mythos` | hook → statement(rot „Leider falsch.“) → karten → statement → ende | `content/reels/2026-10-23-mythos-20-mitarbeiter.json` |
 | `aktuell` | hook (News als Frage) → karten (Was heißt das für Sie?) → statement → ende | – |
 | `it-sicherheit` | hook → liste(nein: typische Fehler) → karten (so geht's) → ende | – |
 | `kundenfrage` | hook („Kundenfrage der Woche:“) → statement → karten → ende | – |
@@ -28,8 +28,9 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 
 ## Dateien & Ablauf
 
-- Reels: `content/reels/JJJJ-MM-TT-kurztitel.json` (Datum = geplanter Veröffentlichungstag)
-- Captions: `content/captions/JJJJ-MM-TT-kurztitel.md` (Vorlage: Datei vom 27.10.2026)
+- **Veröffentlicht wird jeden Freitag, ein Reel pro Woche.** Facebook und Instagram ab 10:00 Uhr, die genaue Zeit liefert `getBestTimeToPostByNetwork`. LinkedIn kommt dazu, sobald es in Metricool verbunden ist.
+- Reels: `content/reels/JJJJ-MM-TT-kurztitel.json` (Datum = Veröffentlichungs-Freitag)
+- Captions: `content/captions/JJJJ-MM-TT-kurztitel.md` (Vorlage: `content/captions/2026-10-23-mythos-20-mitarbeiter.md`)
 - Redaktionsplan + Status: `content/redaktionsplan.md`
 - Themenspeicher: `content/themen-backlog.md`
 - Anzeigen: `content/anzeigen/JJJJ-MM/`

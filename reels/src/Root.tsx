@@ -2,7 +2,7 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { Reel } from './Reel';
 import { FPS, sek, type ReelData } from './types';
-import beispiel from '../../content/reels/2026-10-20-nein-vs-ja.json';
+import beispiel from '../../content/reels/2026-10-23-nein-vs-ja.json';
 
 export const Root: React.FC = () => (
   <Composition

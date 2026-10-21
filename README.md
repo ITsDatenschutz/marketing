@@ -12,6 +12,6 @@ Reels und Anzeigen für its-datenschutz.de, produziert von einem Claude-Agenten 
 cd reels
 npm ci
 npm run studio                                   # Vorschau im Browser
-node scripts/render.mjs ../content/reels/2026-10-27-mythos-20-mitarbeiter.json
+node scripts/render.mjs ../content/reels/2026-10-23-mythos-20-mitarbeiter.json
 ```
 Remotion-Lizenz: kostenlos für Unternehmen bis 3 Mitarbeiter, darüber wird eine Company License fällig (remotion.pro).
