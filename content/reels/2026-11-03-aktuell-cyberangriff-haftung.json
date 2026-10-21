@@ -1,0 +1,20 @@
+{
+  "titel": "Aktuell – Gehackt = automatisch Schadensersatz? (LG Traunstein)",
+  "format": "aktuell",
+  "quellen": [
+    "LG Traunstein, Endurteil v. 17.07.2026 – 9 O 1560/24 (BeckRS 2026, 16843; gesetze-bayern.de)",
+    "Art. 32 Abs. 1 DSGVO (angemessene technische und organisatorische Maßnahmen)",
+    "Art. 82 Abs. 1 DSGVO (Schadensersatz setzt Verstoß, Schaden und Kausalität voraus); EuGH C-300/21 (Schaden muss nachgewiesen werden)",
+    "Art. 5 Abs. 2, Art. 24 Abs. 1 DSGVO (Rechenschaftspflicht, Nachweis der Maßnahmen)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Urteil aus Bayern:", "stempel": "„Gehackt?\nDann zahlen\nSie!“", "nachsatz": "Stimmt das so?" },
+    { "typ": "karten", "dauer": 6, "titel": "Was heißt das", "titelAkzent": "für Sie?", "karten": [
+      { "frage": "Automatisch?", "antwort": "Nein. Ein Angriff allein beweist keinen Verstoß." },
+      { "frage": "Was zählt?", "antwort": "Ihre Schutzmaßnahmen vor dem Angriff." },
+      { "frage": "Ihr Vorteil?", "antwort": "Wer vorsorgt und dokumentiert, steht besser da." }
+    ] },
+    { "typ": "statement", "dauer": 1.5, "text": "Vorsorge\nlohnt sich.", "farbe": "gruen" },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
