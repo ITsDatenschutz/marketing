@@ -43,7 +43,7 @@ export type Scene = HookScene | ListeScene | StatementScene | KartenScene | EndS
 
 export type ReelData = {
   titel: string; // intern
-  format: 'nein-vs-ja' | 'mythos' | 'aktuell' | 'it-sicherheit' | 'kundenfrage';
+  format: 'nein-vs-ja' | 'mythos' | 'aktuell' | 'it-sicherheit' | 'kundenfrage' | 'vorstellung';
   szenen: Scene[];
 };
 
