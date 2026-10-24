@@ -1,0 +1,54 @@
+{
+  "titel": "Aktuell: PHP2Shell – Datenschutzpflichten und IT-Notfallplan",
+  "format": "aktuell",
+  "quellen": [
+    "BSI-Cybersicherheitswarnung 2026-297981-1032, Version 1.2 vom 22.10.2026 (CVE-2026-109618, CVE-2026-109619, CVSS 9,2)",
+    "PHP-Releases vom 21.10.2026: 8.5.12, 8.4.27, 8.3.36, 8.2.35 (SOCRadar; The Hacker News 23.10.2026)",
+    "Art. 32 DSGVO (Sicherheit der Verarbeitung, Stand der Technik)",
+    "Art. 33 DSGVO (Meldung an die Aufsichtsbehörde binnen 72 Stunden)",
+    "its-datenschutz.de: Modul „Notfallplan IT und Produktion“"
+  ],
+  "szenen": [
+    {
+      "typ": "hook",
+      "dauer": 2.5,
+      "frage": "Kritische PHP-Lücke „PHP2Shell“:",
+      "stempel": "„Unsere Website\nist nur eine\nVisitenkarte.“"
+    },
+    {
+      "typ": "statement",
+      "dauer": 1.5,
+      "text": "Und das\nKontakt-\nformular?",
+      "farbe": "rot"
+    },
+    {
+      "typ": "karten",
+      "dauer": 5,
+      "titel": "Der Datenschutz-Check:",
+      "karten": [
+        {
+          "frage": "Patch drauf?",
+          "antwort": "Sicher sind 8.5.12, 8.4.27, 8.3.36, 8.2.35."
+        },
+        {
+          "frage": "Warum Pflicht?",
+          "antwort": "Aktuelle Software gehört zu Art. 32 DSGVO."
+        },
+        {
+          "frage": "Angriff?",
+          "antwort": "Datenpanne: 72 Stunden Meldefrist (Art. 33)."
+        }
+      ]
+    },
+    {
+      "typ": "statement",
+      "dauer": 2,
+      "text": "Mit unserem\nIT-Notfallplan\nvorbereitet.",
+      "farbe": "gruen"
+    },
+    {
+      "typ": "ende",
+      "dauer": 3
+    }
+  ]
+}
