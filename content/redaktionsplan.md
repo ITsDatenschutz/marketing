@@ -12,3 +12,4 @@ Status: `idee` → `entwurf` → `freigegeben` → `geplant` → `veröffentlich
 | 2026-10-30 | Aktuell: Gehackt = automatisch Schadensersatz? (LG Traunstein) | aktuell | `reels/2026-10-30-aktuell-cyberangriff-haftung.json` | entwurf | FB, IG | aktuelles Urteil, deshalb zuerst |
 | 2026-11-06 | Phishing-Mail erkennen | it-sicherheit | `reels/2026-11-06-it-sicherheit-phishing.json` | entwurf | FB, IG | knüpft an 30.10. an |
 | 2026-11-13 | Kundenfrage: Feier-Fotos posten? | kundenfrage | `reels/2026-11-13-kundenfrage-feierfotos.json` | entwurf | FB, IG | vor der Weihnachtsfeier-Saison |
+| 2026-11-20 | Mythos #2: Bei einer Datenpanne eine Woche Zeit? | mythos | `reels/2026-11-20-mythos-datenpanne.json` | entwurf | FB, IG | 72 h (Art. 33); vor Veröffentlichung Stand Digital-Omnibus (96 h) prüfen |

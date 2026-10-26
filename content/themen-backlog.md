@@ -11,7 +11,7 @@ Hier einfach Stichpunkte ergänzen – der Wochenlauf bedient sich daraus.
 ## Mythen
 - „Für WhatsApp im Betrieb reicht die Einwilligung im Gruppenchat.“
 - „Datenschutz gilt nicht für Vereine.“
-- „Bei einer Datenpanne haben wir eine Woche Zeit.“ (Fakt: 72 Stunden, Art. 33 DSGVO)
+- „Bei einer Datenpanne haben wir eine Woche Zeit.“ (Fakt: 72 Stunden, Art. 33 DSGVO) → Entwurf für 20.11.
 - „Cookie-Banner braucht nur, wer Google Analytics nutzt.“
 
 ## IT-Sicherheit
