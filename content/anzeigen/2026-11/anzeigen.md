@@ -1,6 +1,7 @@
 # Anzeigen November 2026 – „Nein vs. Ja“
 
-Status: **entwurf** – nicht angelegt, nicht aktiv. Aktivieren darf nur der Mensch.
+Status: **freigegeben** (vom Nutzer am 2026-11-01). Nicht angelegt, nicht aktiv: Es ist kein Anzeigen-Connector verbunden, Anlegen und Aktivieren macht der Nutzer selbst.
+LinkedIn: Unternehmensseite/Verbindung ist laut Nutzer in Planung. Bis dahin gilt die Meta-only-Variante (200 €), LinkedIn kommt dazu, sobald verbunden.
 Kampagne: `2026-11-nein-vs-ja` · Laufzeit-Vorschlag: 14 Tage, z. B. Mo 09.11. – So 22.11.2026
 
 ## Warum dieses Reel?
