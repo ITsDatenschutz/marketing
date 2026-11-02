@@ -1,0 +1,19 @@
+{
+  "titel": "Aktuell – Digital-Omnibus: Weniger DSGVO? Was jetzt gilt",
+  "format": "aktuell",
+  "quellen": [
+    "Rat der EU, Verhandlungsmandat zum Digital-Omnibus v. 21.10.2026, Verfahren 2025/0360(COD), Ratsdok. 14756/26 (Sekundärquellen: DATEV 26.10.2026, borncity 22.10.2026, euinternetpolicy 23.10.2026)",
+    "Art. 33 Abs. 1 DSGVO (heute: unverzüglich, möglichst binnen 72 Stunden)",
+    "§ 25 Abs. 1 TDDDG (Einwilligung für Cookies/Endgerätezugriff, soweit keine Ausnahme nach Abs. 2)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Neue EU-Reform:", "stempel": "„Bald weniger\nDSGVO?“", "nachsatz": "Was heute gilt." },
+    { "typ": "karten", "dauer": 6, "titel": "Was heißt das", "titelAkzent": "für Sie?", "karten": [
+      { "frage": "Gilt das schon?", "antwort": "Nein. Das EU-Parlament berät noch." },
+      { "frage": "Datenpanne?", "antwort": "Heute 72 Stunden. Der Rat will 96." },
+      { "frage": "Cookie-Banner?", "antwort": "Bleiben. Ablehnen soll ein Klick sein." }
+    ] },
+    { "typ": "statement", "dauer": 1.5, "text": "Wir halten\nSie auf dem\nLaufenden.", "farbe": "gruen" },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
