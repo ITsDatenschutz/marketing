@@ -1,0 +1,20 @@
+{
+  "titel": "Nein vs. Ja – KI im Büro (ChatGPT & Co.)",
+  "format": "nein-vs-ja",
+  "quellen": [
+    "DSK, Orientierungshilfe „Künstliche Intelligenz und Datenschutz“ v. 06.05.2024, Abschn. 2.4 (keine privaten Accounts für dienstliche Nutzung), 2.5 (Training bei Beschäftigten-Accounts ausschließen), 2.1 (externer Anbieter oft Auftragsverarbeiter), 2.2 (klare interne Weisungen)",
+    "Art. 28 Abs. 3 DSGVO (Vertrag zur Auftragsverarbeitung)",
+    "DSK OH KI, Abschn. 3.1; ErwG 26 DSGVO (Weglassen von Namen macht Daten nicht automatisch anonym)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "KI im Büro?", "stempel": "„Einfach mal\nreinkopieren.“", "nachsatz": "Kundenmail, Vertrag, Bewerbung …" },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Privater Account.", "Kundendaten rein.", "Keine Regel."], "fazit": "…und keiner weiß, wo was landet." },
+    { "typ": "statement", "dauer": 1.5, "text": "Geht auch\nsauber.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "mit KI:", "karten": [
+      { "frage": "Welcher Account?", "antwort": "Firmen-Account statt privat – mit AV-Vertrag." },
+      { "frage": "Training?", "antwort": "Nutzung Ihrer Eingaben fürs Training abschalten." },
+      { "frage": "Und das Team?", "antwort": "Eine kurze Regel: Was darf rein, was nicht?" }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

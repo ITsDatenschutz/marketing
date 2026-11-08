@@ -1,0 +1,18 @@
+{
+  "titel": "Kundenfrage – Unterlagen einfach unverschlüsselt per Mail?",
+  "format": "kundenfrage",
+  "quellen": [
+    "Art. 32 Abs. 1 DSGVO (angemessene technische und organisatorische Maßnahmen, u. a. Verschlüsselung)",
+    "DSK, Beschluss v. 24.11.2021 (TOP 7) „Möglichkeit der Nichtanwendung technischer und organisatorischer Maßnahmen nach Art. 32 DSGVO auf ausdrücklichen Wunsch betroffener Personen“: Verzicht nur im dokumentierten Einzelfall, ausdrücklicher und eigeninitiativer Wunsch, informierte Person, Rechte weiterer Betroffener beachten; Einwilligung als Rechtsgrundlage reicht nicht"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Schicken Sie's\neinfach per\nMail!“", "nachsatz": "Darf ich das?" },
+    { "typ": "statement", "dauer": 1.5, "text": "Ja – aber\nnicht einfach\nso.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "sauber:", "karten": [
+      { "frage": "Standard?", "antwort": "Sensible Unterlagen schicken Sie geschützt." },
+      { "frage": "Kunde will's?", "antwort": "Nur auf eigenen Wunsch und nach Hinweis aufs Risiko." },
+      { "frage": "Und dann?", "antwort": "Einzelfall festhalten. Daten Dritter bleiben geschützt." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

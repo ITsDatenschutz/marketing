@@ -14,7 +14,7 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 5. **Keine echten Kundendaten.** Kundenfragen nur anonymisiert und verallgemeinert. Keine Namen, Orte oder Branchen, die einen Rückschluss zulassen.
 6. **Kein Tracking in der eigenen Werbung:** kein Meta-Pixel, kein LinkedIn Insight Tag, kein Retargeting. Messung nur über UTM-Links und eingehende Anfragen.
 
-## Formate (rotieren, jede Woche ein anderes)
+## Formate (rotieren: nie zwei gleiche Formate hintereinander, innerhalb einer Woche nie dasselbe)
 
 | Format | Aufbau (Szenen-Typen) | Beispiel |
 |---|---|---|
@@ -29,8 +29,8 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 
 ## Dateien & Ablauf
 
-- **Veröffentlicht wird jeden Freitag, ein Reel pro Woche.** Facebook und Instagram ab 10:00 Uhr, die genaue Zeit liefert `getBestTimeToPostByNetwork`. LinkedIn kommt dazu, sobald es in Metricool verbunden ist.
-- Reels: `content/reels/JJJJ-MM-TT-kurztitel.json` (Datum = Veröffentlichungs-Freitag)
+- **Veröffentlicht wird zweimal pro Woche: dienstags und freitags, je ein Reel** (seit 08.11.2026, vorher nur freitags). Facebook und Instagram ab 10:00 Uhr, die genaue Zeit liefert `getBestTimeToPostByNetwork`. LinkedIn kommt dazu, sobald es in Metricool verbunden ist.
+- Reels: `content/reels/JJJJ-MM-TT-kurztitel.json` (Datum = Veröffentlichungstag, Dienstag oder Freitag)
 - Captions: `content/captions/JJJJ-MM-TT-kurztitel.md` (Vorlage: `content/captions/2026-10-23-mythos-20-mitarbeiter.md`)
 - Redaktionsplan + Status: `content/redaktionsplan.md`
 - Themenspeicher: `content/themen-backlog.md`

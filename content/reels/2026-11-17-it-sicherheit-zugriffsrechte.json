@@ -1,0 +1,19 @@
+{
+  "titel": "IT-Sicherheit – Zugriffsrechte aufräumen",
+  "format": "it-sicherheit",
+  "quellen": [
+    "Art. 32 Abs. 1 lit. b DSGVO (Vertraulichkeit der Systeme auf Dauer sicherstellen)",
+    "Art. 5 Abs. 1 lit. f DSGVO (Integrität und Vertraulichkeit)",
+    "BSI IT-Grundschutz-Kompendium, Baustein ORP.4 Identitäts- und Berechtigungsmanagement (Rechte bei Austritt entziehen, personalisierte Kennungen, regelmäßige Überprüfung)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Wer hat eigentlich Zugriff?", "stempel": "„Der Azubi\nvon 2019?\nImmer noch.“" },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Ex-Kollege drin.", "Link ohne Ablauf.", "Ein Konto für alle."], "fazit": "…offene Türen, die keiner sieht." },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "in 3 Schritten:", "karten": [
+      { "frage": "Jemand geht?", "antwort": "Am letzten Tag alle Zugänge sperren." },
+      { "frage": "Freigaben?", "antwort": "Links mit Ablaufdatum, nach Projektende zu." },
+      { "frage": "Einmal im Jahr?", "antwort": "Liste durchgehen: Wer braucht was wirklich?" }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
