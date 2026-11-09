@@ -1,0 +1,20 @@
+{
+  "titel": "Mythos #3 – Datenschutz gilt nicht für Vereine",
+  "format": "mythos",
+  "quellen": [
+    "Art. 2 Abs. 1, Art. 4 Nr. 7 DSGVO (gilt für jede Stelle, die Daten verarbeitet, keine Ausnahme für Vereine)",
+    "Art. 30 DSGVO; BayLDA, Merkblatt „DS-GVO in Vereinen“ (Verzeichnis der Verarbeitungstätigkeiten verpflichtend, Muster für Vereine)",
+    "Art. 6 Abs. 1 lit. b DSGVO; BayLDA, „DS-GVO in Vereinen“ (Mitgliederverwaltung ohne Einwilligung, Porträtfotos auf der Homepage mit Einwilligung)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 3:", "stempel": "„Wir sind doch\nnur ein\nVerein.“" },
+    { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },
+    { "typ": "karten", "dauer": 5.5, "titel": "Was wirklich gilt:", "karten": [
+      { "frage": "DSGVO?", "antwort": "Gilt auch im Verein – ab der Mitgliederliste." },
+      { "frage": "Einwilligung?", "antwort": "Für die Verwaltung nicht nötig, für Fotos im Netz schon." },
+      { "frage": "Papierkram?", "antwort": "Eine Übersicht: welche Daten, wofür. Muster gibt's." }
+    ] },
+    { "typ": "statement", "dauer": 1.5, "text": "Klingt mehr,\nals es ist.", "farbe": "gruen" },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

@@ -17,3 +17,5 @@ Status: `idee` → `entwurf` → `freigegeben` → `geplant` → `veröffentlich
 | 2026-11-10 | Nein vs. Ja: KI im Büro | nein-vs-ja | `reels/2026-11-10-nein-vs-ja-ki-im-buero.json` | entwurf | FB, IG | erster Dienstagstermin; DSK-OH KI |
 | 2026-11-17 | Zugriffsrechte aufräumen | it-sicherheit | `reels/2026-11-17-it-sicherheit-zugriffsrechte.json` | entwurf | FB, IG | ohne Rechtsaussage |
 | 2026-11-24 | Kundenfrage: Unverschlüsselt per Mail? | kundenfrage | `reels/2026-11-24-kundenfrage-unverschluesselte-mail.json` | entwurf | FB, IG | DSK-Beschluss 24.11.2021 |
+| 2026-12-01 | Mythos #3: Datenschutz gilt nicht für Vereine | mythos | `reels/2026-12-01-mythos-verein.json` | entwurf | FB, IG | Wochenlauf KW 46 · BayLDA-Merkblatt Vereine; DSB-Schwelle bewusst weggelassen (Merkblatt veraltet) |
+| 2026-12-04 | Nein vs. Ja: Löschen zum Jahresende | nein-vs-ja | `reels/2026-12-04-nein-vs-ja-loeschkonzept.json` | entwurf | FB, IG | Wochenlauf KW 46 · LfD Sachsen-Anhalt Leitfaden Löschkonzept 2026; Fristen enden zum Jahresende (§ 147 Abs. 4 AO) |
