@@ -6,6 +6,7 @@
     "BSI, Empfehlung Zwei-Faktor-Authentisierung für Online-Konten (BSI für Bürger; BSI-Whitepaper „Biometrie und 2FA“)",
     "Cybersicherheitsagentur Baden-Württemberg, Factsheet Zwei-Faktor-Authentifizierung (02/2024)"
   ],
+  "cover": {"kategorie": "IT-Sicherheit", "titel": "Zwei-Faktor-\nAnmeldung", "akzent": "in 5 Minuten."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "5 Minuten, die Ärger sparen:", "stempel": "„Passwort\nreicht doch.“", "nachsatz": "Bis es geklaut wird." },
     { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Nur ein Passwort.", "Überall dasselbe.", "Code verraten."], "fazit": "…und das Konto gehört Fremden." },

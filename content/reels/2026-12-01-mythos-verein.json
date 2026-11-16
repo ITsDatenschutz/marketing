@@ -6,6 +6,7 @@
     "Art. 30 DSGVO; BayLDA, Merkblatt „DS-GVO in Vereinen“ (Verzeichnis der Verarbeitungstätigkeiten verpflichtend, Muster für Vereine)",
     "Art. 6 Abs. 1 lit. b DSGVO; BayLDA, „DS-GVO in Vereinen“ (Mitgliederverwaltung ohne Einwilligung, Porträtfotos auf der Homepage mit Einwilligung)"
   ],
+  "cover": {"kategorie": "Mythos #3", "titel": "„Wir sind doch\nnur ein Verein.“", "akzent": "Was wirklich gilt."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 3:", "stempel": "„Wir sind doch\nnur ein\nVerein.“" },
     { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },

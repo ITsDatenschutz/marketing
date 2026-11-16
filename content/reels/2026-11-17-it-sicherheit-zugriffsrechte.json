@@ -6,6 +6,7 @@
     "Art. 5 Abs. 1 lit. f DSGVO (Integrität und Vertraulichkeit)",
     "BSI IT-Grundschutz-Kompendium, Baustein ORP.4 Identitäts- und Berechtigungsmanagement (Rechte bei Austritt entziehen, personalisierte Kennungen, regelmäßige Überprüfung)"
   ],
+  "cover": {"kategorie": "IT-Sicherheit", "titel": "Wer hat noch\nZugriff?", "akzent": "In 3 Schritten aufräumen."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Wer hat eigentlich Zugriff?", "stempel": "„Der Azubi\nvon 2019?\nImmer noch.“" },
     { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Ex-Kollege drin.", "Link ohne Ablauf.", "Ein Konto für alle."], "fazit": "…offene Türen, die keiner sieht." },

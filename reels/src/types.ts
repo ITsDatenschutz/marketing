@@ -41,9 +41,16 @@ export type EndScene = {
 
 export type Scene = HookScene | ListeScene | StatementScene | KartenScene | EndScene;
 
+export type CoverData = {
+  kategorie: string; // Pille oben, z. B. "Mythos #4", "Kundenfrage"
+  titel: string; // groß, weiß, max. 2–3 Zeilen à ~16 Zeichen, Umbruch mit "\n"
+  akzent?: string; // Lime-Zeile darunter, max. ~22 Zeichen
+};
+
 export type ReelData = {
   titel: string; // intern
   format: 'nein-vs-ja' | 'mythos' | 'aktuell' | 'it-sicherheit' | 'kundenfrage' | 'vorstellung';
+  cover?: CoverData; // Vorschaubild (Cover) für Feed und Profilraster
   szenen: Scene[];
 };
 

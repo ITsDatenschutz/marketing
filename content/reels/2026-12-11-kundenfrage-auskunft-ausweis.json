@@ -7,6 +7,7 @@
     "Art. 12 Abs. 3 DSGVO (unverzüglich, spätestens innerhalb eines Monats), Art. 12 Abs. 5 und Art. 15 Abs. 3 DSGVO (unentgeltlich, erste Kopie kostenlos)",
     "BayLDA, Information für Verantwortliche zum Recht auf Auskunft gemäß Art. 15 DS-GVO, Stand Dezember 2024: „Pauschal die Kopie eines Ausweisdokuments zu verlangen ist jedoch regelmäßig nicht zulässig.“ Identifizierung mit vorhandenen Daten, z. B. Kundennummer"
   ],
+  "cover": {"kategorie": "Kundenfrage", "titel": "Ausweiskopie\nbei Auskunft?", "akzent": "Meist nicht nötig."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Jemand will\nwissen, was wir\nüber ihn haben.“", "nachsatz": "Ausweis verlangen?" },
     { "typ": "statement", "dauer": 1.5, "text": "Meist\nnicht nötig.", "farbe": "gruen" },

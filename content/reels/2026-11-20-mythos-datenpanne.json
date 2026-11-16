@@ -2,6 +2,7 @@
   "titel": "Mythos #2 – Bei einer Datenpanne haben wir eine Woche Zeit",
   "format": "mythos",
   "quellen": ["Art. 33 Abs. 1 DSGVO", "Art. 33 Abs. 4 DSGVO", "Art. 33 Abs. 5 DSGVO", "Art. 3 Abs. 3 VO (EWG, Euratom) Nr. 1182/71"],
+  "cover": {"kategorie": "Mythos #2", "titel": "„Bei Datenpannen\nhaben wir eine\nWoche Zeit.“", "akzent": "Was wirklich gilt."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 2:", "stempel": "„Datenpanne?\nWir haben eine\nWoche Zeit.“" },
     { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },

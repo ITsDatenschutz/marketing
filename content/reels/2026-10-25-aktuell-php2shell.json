@@ -8,6 +8,7 @@
     "Art. 33 DSGVO (Meldung an die Aufsichtsbehörde binnen 72 Stunden)",
     "its-datenschutz.de: Modul „Notfallplan IT und Produktion“"
   ],
+  "cover": {"kategorie": "Aktuell", "titel": "PHP-Lücke:\nWebsite prüfen", "akzent": "Ihr Datenschutz-Check."},
   "szenen": [
     {
       "typ": "hook",

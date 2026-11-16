@@ -9,6 +9,7 @@
     "Art. 17 Abs. 1 lit. b DSGVO (Löschung nach Widerruf)",
     "§ 22 KUG (Veröffentlichung von Bildnissen nur mit Einwilligung)"
   ],
+  "cover": {"kategorie": "Kundenfrage", "titel": "Feier-Fotos\nposten?", "akzent": "So geht's sauber."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Dürfen wir die\nFeier-Fotos\nposten?“" },
     { "typ": "statement", "dauer": 1.5, "text": "Ja – mit\nEinwilligung.", "farbe": "gruen" },

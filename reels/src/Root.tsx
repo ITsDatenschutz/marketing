@@ -1,10 +1,12 @@
 import React from 'react';
-import { Composition } from 'remotion';
+import { Composition, Still } from 'remotion';
+import { Cover } from './Cover';
 import { Reel } from './Reel';
 import { FPS, framesVon, type ReelData } from './types';
 import beispiel from '../../content/reels/2026-10-23-nein-vs-ja.json';
 
 export const Root: React.FC = () => (
+  <>
   <Composition
     id="Reel"
     component={Reel}
@@ -17,4 +19,6 @@ export const Root: React.FC = () => (
       durationInFrames: props.szenen.reduce((sum, s) => sum + framesVon(s), 0),
     })}
   />
+  <Still id="Cover" component={Cover} width={1080} height={1920} defaultProps={beispiel as ReelData} />
+  </>
 );

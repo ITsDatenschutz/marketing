@@ -6,6 +6,7 @@
     "§ 147 Abs. 3, 4 AO (Aufbewahrungsfristen, Beginn mit Schluss des Kalenderjahres) – nur Caption",
     "LfD Sachsen-Anhalt, „Löschkonzept für personenbezogene Daten nach DS-GVO – Leitfaden für kleine Unternehmen“ (2026, datenschutz.sachsen-anhalt.de): Papierkorb ist keine Löschung; Backups regelmäßig überschreiben, gelöschte Daten nach Wiederherstellung nicht wieder einspielen; Löschkatalog, jährliche Überprüfung"
   ],
+  "cover": {"kategorie": "Nein vs. Ja", "titel": "Löschen zum\nJahresende", "akzent": "So geht's richtig."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Das Jahr ist bald rum:", "stempel": "„Wir heben\neinfach alles\nauf.“" },
     { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Alles für immer.", "Nur Papierkorb.", "Backups vergessen."], "fazit": "…und keiner hat den Überblick." },

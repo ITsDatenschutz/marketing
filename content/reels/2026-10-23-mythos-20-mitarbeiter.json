@@ -2,6 +2,7 @@
   "titel": "Mythos #1 – Unter 20 Mitarbeitern kein Datenschutz",
   "format": "mythos",
   "quellen": ["Art. 2, Art. 37 Abs. 1 DSGVO", "§ 38 Abs. 1 BDSG"],
+  "cover": {"kategorie": "Mythos #1", "titel": "„Unter 20 Leuten\nbetrifft uns\nnicht.“", "akzent": "Was wirklich gilt."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 1:", "stempel": "„Unter 20 Leuten?\nBetrifft uns\nnicht.“" },
     { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },

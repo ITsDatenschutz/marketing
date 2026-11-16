@@ -2,6 +2,7 @@
   "titel": "Vorstellung – Wer steckt hinter ITs Hein?",
   "format": "vorstellung",
   "quellen": ["its-datenschutz.de (Startseite, Stand 21.10.2026): externer DSB & IT-Sicherheit, Standort am Rande des Fichtelgebirges, über ein Jahrzehnt Erfahrung, Kunden in ganz Deutschland, Bedarfsanalyse mit Prioritätenliste, laufende Betreuung"],
+  "cover": {"kategorie": "Vorstellung", "titel": "Wer steckt hinter\nITs Hein?", "akzent": "Externer DSB & IT-Sicherheit."},
   "szenen": [
     { "typ": "statement", "dauer": 2, "text": "Hallo,\nwir sind\nITs Hein.", "farbe": "lime" },
     { "typ": "liste", "dauer": 3, "art": "ja", "punkte": ["Externer DSB.", "IT-Sicherheit.", "Seit über 10 Jahren."], "fazit": "Vom Fichtelgebirge aus – für ganz Deutschland." },

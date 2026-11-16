@@ -1,6 +1,7 @@
 {
   "titel": "Reel 1 – Nein vs. Ja",
   "format": "nein-vs-ja",
+  "cover": {"kategorie": "Nein vs. Ja", "titel": "„Das geht\nso nicht.“", "akzent": "Wir sagen: So geht's."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Kennen Sie diesen Datenschützer?", "stempel": "„Das geht\nso nicht.“", "nachsatz": "Ende der Durchsage." },
     { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Kein WhatsApp.", "Kein Analytics.", "Keine Teamfotos."], "fazit": "…und Ihr Projekt liegt auf Eis." },

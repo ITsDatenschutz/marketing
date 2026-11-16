@@ -1,6 +1,7 @@
 // Rendert ein Reel aus einer JSON-Datei.
-// Aufruf:  node scripts/render.mjs ../content/reels/<datei>.json [--stills] [--nur-stills]
-// Ergebnis: out/<dateiname>.mp4  (mit --stills zusätzlich ein Kontaktbogen pro Szene als PNG)
+// Aufruf:  node scripts/render.mjs ../content/reels/<datei>.json [--stills] [--nur-stills] [--nur-cover]
+// Ergebnis: out/<dateiname>.mp4 + out/<dateiname>-cover.jpg (Vorschaubild, immer)
+//           (mit --stills zusätzlich ein Bild pro Szene als PNG; --nur-cover rendert nur das Vorschaubild)
 import { execFileSync } from 'node:child_process';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { basename, resolve } from 'node:path';
@@ -32,6 +33,12 @@ const dauerVon = (s) =>
   : Math.max(s.dauer, Math.round((PUFFER + txt(s).reduce((n, t) => n + W(t), 0) / LESETEMPO) * 10) / 10);
 
 const run = (args) => execFileSync('npx', ['remotion', ...args], { stdio: 'inherit' });
+
+run(['still', 'src/index.ts', 'Cover', `out/${name}-cover.jpg`, '--image-format=jpeg', '--jpeg-quality=90', `--props=${propsFile}`]);
+if (flags.includes('--nur-cover')) {
+  console.log(`\nFertig: out/${name}-cover.jpg`);
+  process.exit(0);
+}
 
 if (flags.includes('--stills')) {
   let t = 0;

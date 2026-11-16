@@ -7,6 +7,7 @@
     "IHK Regensburg, Anforderungen an Websites nach der DS-GVO, Stand 08.07.2026 (nicht notwendige Cookies und Einbindung externer Inhalte grundsätzlich einwilligungspflichtig; YouTube regelmäßig mit vorheriger Einwilligung, erweiterter Datenschutzmodus ersetzt sie regelmäßig nicht)",
     "DSK, Orientierungshilfe für Anbieter:innen von digitalen Diensten (Einwilligung nach § 25 TDDDG, Ablehnen so einfach wie Zustimmen)"
   ],
+  "cover": {"kategorie": "Mythos #4", "titel": "„Cookie-Banner\nnur für\nAnalytics.“", "akzent": "Was wirklich gilt."},
   "szenen": [
     { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 4:", "stempel": "„Banner nur\nfür Analytics.“" },
     { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },

@@ -23,9 +23,9 @@ Auswahlkriterien: Betrifft es kleine und mittlere Betriebe, Vereine oder Gemeind
 **Menge:** Veröffentlicht wird dienstags und freitags. Zähle im Redaktionsplan die Entwürfe und freigegebenen Reels für kommende Termine. Sind es **6 oder mehr** (drei Wochen), baust du **2** neue Entwürfe, sonst so viele, dass wieder 6 Termine abgedeckt sind (höchstens 4 pro Lauf). Jeder neue Entwurf bekommt den nächsten freien Dienstag oder Freitag als Datum. Formate: nie zwei gleiche hintereinander, innerhalb einer Woche nie dasselbe.
 
 Für jedes Thema:
-1. Reel-JSON nach Schema (`reels/src/types.ts`), mit `quellen`
+1. Reel-JSON nach Schema (`reels/src/types.ts`), mit `quellen` und `cover` (Vorschaubild: `kategorie`, `titel`, `akzent`, siehe `types.ts`)
 2. Captions-Datei mit LinkedIn-, Facebook- und Instagram-Version
-3. Rendern mit `--stills`, alle Szenenbilder prüfen, Fehler beheben
+3. Rendern mit `--stills` (erzeugt immer auch `out/<name>-cover.jpg`), alle Szenenbilder **und das Cover** prüfen, Fehler beheben
 4. Eintrag in `content/redaktionsplan.md` mit Status `entwurf`
 
 ## 4. Faktencheck
@@ -41,8 +41,8 @@ Prüfe jede rechtliche Aussage gegen ihre Quelle. Für jede Aussage notierst du 
 Nur bei **ausdrücklicher Freigabe** eines bestimmten Reels („1 freigeben“). Unklare Antworten wie „sieht gut aus“ oder „ok“ führen zu einer Rückfrage, nicht zur Planung.
 
 1. Gewünschte Änderungen umsetzen, neu rendern und alle Szenenbilder prüfen. Wenn der Inhalt geändert wurde, schickst du das Video erneut und wartest auf die erneute Freigabe.
-2. **Video öffentlich ablegen:** Klone `ITsDatenschutz/reels-medien` (add_repo, access "push") und kopiere die finale MP4 nach `JJJJ/<dateiname>.mp4`. Danach Commit und Push. **Verwende die URL mit Commit-Kennung**, nicht `main`, weil der Download-Server neue Dateien unter `main` minutenlang als 404 zwischenspeichert: `https://raw.githubusercontent.com/ITsDatenschutz/reels-medien/<commit-sha>/JJJJ/<dateiname>.mp4` (sha via `git rev-parse HEAD`). Prüfe mit `curl -sI`, dass sie HTTP 200 liefert. **Dort landen niemals Entwürfe.**
+2. **Video öffentlich ablegen:** Klone `ITsDatenschutz/reels-medien` (add_repo, access "push") und kopiere die finale MP4 nach `JJJJ/<dateiname>.mp4`. Danach Commit und Push. **Verwende die URL mit Commit-Kennung**, nicht `main`, weil der Download-Server neue Dateien unter `main` minutenlang als 404 zwischenspeichert: `https://raw.githubusercontent.com/ITsDatenschutz/reels-medien/<commit-sha>/JJJJ/<dateiname>.mp4` (sha via `git rev-parse HEAD`). Lege das Vorschaubild `out/<name>-cover.jpg` daneben (`JJJJ/<dateiname>-cover.jpg`, gleicher Commit). Prüfe mit `curl -sI`, dass beide HTTP 200 liefern. **Dort landen niemals Entwürfe.**
 3. **Termin bestimmen:** Es ist der Tag aus dem Dateinamen (Dienstag oder Freitag). Die Uhrzeit liefert `getBestTimeToPostByNetwork` (Metricool, brandId `7559109`, Zeitzone Europe/Berlin) für diesen Tag, gewählt wird die beste Stunde zwischen 9 und 13 Uhr. Ohne Daten gilt: Facebook und Instagram 11:00, LinkedIn 8:00.
-4. **In Metricool einplanen** mit `createScheduledPost`: ein Post pro Netzwerk, Text aus der Captions-Datei, `media` = öffentliche URL, `autoPublish: true`, `draft: false`. Facebook: `facebookData.type = "REEL"`. Instagram: `instagramData.type = "REEL"`. Plane nur Netzwerke ein, die in `getBrandSettings` verbunden sind.
+4. **In Metricool einplanen** mit `createScheduledPost`: ein Post pro Netzwerk, Text aus der Captions-Datei, `media` = öffentliche URL, `videoThumbnailUrl` = öffentliche Cover-URL (Pflicht, sonst zeigt das Profilraster ein dunkles Standbild), `autoPublish: true`, `draft: false`. Facebook: `facebookData.type = "REEL"`. Instagram: `instagramData.type = "REEL"`. Plane nur Netzwerke ein, die in `getBrandSettings` verbunden sind.
 5. Status im Redaktionsplan auf `geplant` setzen, mit Terminen und `plannerUrl` in den Notizen. Danach Commit und Push in `marketing`.
 6. Bestätigung an den Nutzer: je Netzwerk Datum, Uhrzeit und Planner-Link, dazu der Hinweis: „Bis zum Termin in Metricool stoppbar.“

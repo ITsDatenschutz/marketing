@@ -43,7 +43,7 @@ Zielgruppe: Geschäftsführer, Praxis- und Hotelinhaber, Vereinsvorstände, Geme
 ```bash
 cd reels && npm ci && node scripts/render.mjs ../content/reels/<datei>.json --stills
 ```
-`--stills` erzeugt ein PNG pro Szene. **Sieh dir jedes Bild an, bevor du ein Video verschickst:** Text darf nicht überlaufen und muss in der Safe Zone liegen. Videos (`reels/out/`) werden nicht committet. Du schickst sie per Datei an den Nutzer.
+`--stills` erzeugt ein PNG pro Szene. Jeder Lauf erzeugt außerdem das Vorschaubild `out/<name>-cover.jpg` aus dem Feld `cover` der Reel-JSON (`--nur-cover` rendert nur dieses). Jedes Reel wird mit Cover eingeplant. **Sieh dir jedes Bild an, bevor du ein Video verschickst:** Text darf nicht überlaufen und muss in der Safe Zone liegen. Videos (`reels/out/`) werden nicht committet. Du schickst sie per Datei an den Nutzer.
 
 **Status im Redaktionsplan:** `idee` → `entwurf` → `freigegeben` → `geplant` → `veröffentlicht` (oder `verworfen`)
 
