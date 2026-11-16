@@ -1,0 +1,19 @@
+{
+  "titel": "IT-Sicherheit – Zwei-Faktor-Anmeldung in 5 Minuten",
+  "format": "it-sicherheit",
+  "quellen": [
+    "Art. 32 Abs. 1 DSGVO (angemessene technische Maßnahmen zum Schutz der Daten)",
+    "BSI, Empfehlung Zwei-Faktor-Authentisierung für Online-Konten (BSI für Bürger; BSI-Whitepaper „Biometrie und 2FA“)",
+    "Cybersicherheitsagentur Baden-Württemberg, Factsheet Zwei-Faktor-Authentifizierung (02/2024)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "5 Minuten, die Ärger sparen:", "stempel": "„Passwort\nreicht doch.“", "nachsatz": "Bis es geklaut wird." },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Nur ein Passwort.", "Überall dasselbe.", "Code verraten."], "fazit": "…und das Konto gehört Fremden." },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "in 5 Minuten:", "karten": [
+      { "frage": "Wo zuerst?", "antwort": "Erst E-Mail und Cloud, dann der Rest." },
+      { "frage": "Womit?", "antwort": "Wo möglich per App statt per SMS." },
+      { "frage": "Anrufer will Code?", "antwort": "Nie weitergeben – auch nicht an den „Support“." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

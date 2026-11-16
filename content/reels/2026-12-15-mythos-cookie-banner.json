@@ -1,0 +1,21 @@
+{
+  "titel": "Mythos #4 – Cookie-Banner braucht nur, wer Analytics nutzt",
+  "format": "mythos",
+  "quellen": [
+    "§ 25 Abs. 1 TDDDG (Speichern/Auslesen von Informationen auf dem Endgerät nur mit Einwilligung)",
+    "§ 25 Abs. 2 Nr. 2 TDDDG (keine Einwilligung, wenn unbedingt erforderlich für den ausdrücklich gewünschten Dienst)",
+    "IHK Regensburg, Anforderungen an Websites nach der DS-GVO, Stand 08.07.2026 (nicht notwendige Cookies und Einbindung externer Inhalte grundsätzlich einwilligungspflichtig; YouTube regelmäßig mit vorheriger Einwilligung, erweiterter Datenschutzmodus ersetzt sie regelmäßig nicht)",
+    "DSK, Orientierungshilfe für Anbieter:innen von digitalen Diensten (Einwilligung nach § 25 TDDDG, Ablehnen so einfach wie Zustimmen)"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Datenschutz-Mythos Nr. 4:", "stempel": "„Banner nur\nfür Analytics.“" },
+    { "typ": "statement", "dauer": 1.5, "text": "Leider\nfalsch.", "farbe": "rot" },
+    { "typ": "karten", "dauer": 6, "titel": "Was wirklich gilt:", "karten": [
+      { "frage": "Wann Banner?", "antwort": "Bei allem, was nicht unbedingt nötig ist." },
+      { "frage": "Zum Beispiel?", "antwort": "YouTube-Videos, Werbe- und Statistik-Tools." },
+      { "frage": "Ganz ohne?", "antwort": "Geht – wenn Sie nur Notwendiges einsetzen." }
+    ] },
+    { "typ": "statement", "dauer": 1.5, "text": "Weniger ist\nhier mehr.", "farbe": "gruen" },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

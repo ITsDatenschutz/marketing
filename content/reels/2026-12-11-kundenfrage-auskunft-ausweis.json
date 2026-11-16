@@ -1,0 +1,20 @@
+{
+  "titel": "Kundenfrage – Auskunftsanfrage: Ausweiskopie verlangen?",
+  "format": "kundenfrage",
+  "quellen": [
+    "Art. 15 DSGVO (Recht auf Auskunft)",
+    "Art. 12 Abs. 6 DSGVO (zusätzliche Informationen zur Identität nur bei begründeten Zweifeln)",
+    "Art. 12 Abs. 3 DSGVO (unverzüglich, spätestens innerhalb eines Monats), Art. 12 Abs. 5 und Art. 15 Abs. 3 DSGVO (unentgeltlich, erste Kopie kostenlos)",
+    "BayLDA, Information für Verantwortliche zum Recht auf Auskunft gemäß Art. 15 DS-GVO, Stand Dezember 2024: „Pauschal die Kopie eines Ausweisdokuments zu verlangen ist jedoch regelmäßig nicht zulässig.“ Identifizierung mit vorhandenen Daten, z. B. Kundennummer"
+  ],
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Jemand will\nwissen, was wir\nüber ihn haben.“", "nachsatz": "Ausweis verlangen?" },
+    { "typ": "statement", "dauer": 1.5, "text": "Meist\nnicht nötig.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "sauber:", "karten": [
+      { "frage": "Wer fragt?", "antwort": "Mit vorhandenen Daten prüfen, etwa Kundennummer." },
+      { "frage": "Echte Zweifel?", "antwort": "Gezielt nachfragen. Nicht pauschal den Ausweis." },
+      { "frage": "Bis wann?", "antwort": "In der Regel binnen eines Monats – kostenlos." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

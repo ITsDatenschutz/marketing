@@ -12,12 +12,12 @@ Hier einfach Stichpunkte ergänzen – der Wochenlauf bedient sich daraus.
 - „Für WhatsApp im Betrieb reicht die Einwilligung im Gruppenchat.“
 - „Datenschutz gilt nicht für Vereine.“ → Entwurf für 01.12.
 - „Bei einer Datenpanne haben wir eine Woche Zeit.“ (Fakt: 72 Stunden, Art. 33 DSGVO) → Entwurf für 20.11.
-- „Cookie-Banner braucht nur, wer Google Analytics nutzt.“
+- „Cookie-Banner braucht nur, wer Google Analytics nutzt.“ → Entwurf für 15.12.
 
 ## IT-Sicherheit
 - Phishing-Mail erkennen in 3 Sekunden
 - Passwort-Manager statt Zettel
-- Zwei-Faktor-Anmeldung: 5 Minuten, die Ärger sparen
+- Zwei-Faktor-Anmeldung: 5 Minuten, die Ärger sparen → Entwurf für 08.12.
 
 ## Lokal / Oberfranken
 - Gemeinden: Was der Datenschutz bei Bürgeranfragen verlangt
@@ -32,4 +32,4 @@ Hier einfach Stichpunkte ergänzen – der Wochenlauf bedient sich daraus.
 - NIS-2: Bin ich betroffen? → aktuell (BSI-Betroffenheitscheck, § 28 BSIG) – datenschutzticker.de 05.11.2026
 - Einwilligung nachweisbar und leicht widerrufbar → nein-vs-ja (Art. 7 DSGVO, DSK-Kurzpapier 20) – datenschutzticker.de 28.10.2026
 - Telefonakquise bei Firmen → nein-vs-ja (§ 7 UWG) – dr-datenschutz.de 03.11.2026
-- Erledigt: KI im Büro → 10.11. · Zugriffsrechte → 17.11. · Unverschlüsselte Mail → 24.11. · Löschkonzept → 04.12.
+- Erledigt: KI im Büro → 10.11. · Zugriffsrechte → 17.11. · Unverschlüsselte Mail → 24.11. · Löschkonzept → 04.12. · Ausweiskopie bei Auskunft → 11.12.
