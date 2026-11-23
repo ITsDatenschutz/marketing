@@ -6,7 +6,7 @@ Hier einfach Stichpunkte ergänzen – der Wochenlauf bedient sich daraus.
 ## Kundenfragen
 - Dürfen wir Fotos vom Sommerfest auf Facebook posten?
 - Brauchen wir für Microsoft 365 einen AVV?
-- Was müssen wir tun, wenn ein Laptop gestohlen wird?
+- Was müssen wir tun, wenn ein Laptop gestohlen wird? → Entwurf für 22.12.
 
 ## Mythen
 - „Für WhatsApp im Betrieb reicht die Einwilligung im Gruppenchat.“
@@ -16,7 +16,7 @@ Hier einfach Stichpunkte ergänzen – der Wochenlauf bedient sich daraus.
 
 ## IT-Sicherheit
 - Phishing-Mail erkennen in 3 Sekunden
-- Passwort-Manager statt Zettel
+- Passwort-Manager statt Zettel → Entwurf für 18.12.
 - Zwei-Faktor-Anmeldung: 5 Minuten, die Ärger sparen → Entwurf für 08.12.
 
 ## Lokal / Oberfranken

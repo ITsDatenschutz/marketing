@@ -1,0 +1,22 @@
+{
+  "titel": "Kundenfrage – Laptop gestohlen: Was jetzt?",
+  "format": "kundenfrage",
+  "quellen": [
+    "Art. 4 Nr. 12 DSGVO (Verletzung des Schutzes personenbezogener Daten, auch Verlust)",
+    "Art. 33 Abs. 1 DSGVO (Meldung unverzüglich und möglichst binnen 72 Stunden nach Bekanntwerden, es sei denn, voraussichtlich kein Risiko)",
+    "Art. 33 Abs. 5 DSGVO (jede Verletzung dokumentieren)",
+    "Art. 34 Abs. 1, Abs. 3 lit. a DSGVO (Benachrichtigung Betroffener bei hohem Risiko; entfällt z. B. bei Verschlüsselung)",
+    "EDSA, Leitlinien 9/2022 zur Meldung von Datenschutzverletzungen, Version 2.0 vom 28.03.2023, Rn. 29, 31, 33 (Verlust eines unverschlüsselten Datenträgers: bekannt ab Bemerken des Verlusts)"
+  ],
+  "cover": {"kategorie": "Kundenfrage", "titel": "Laptop\ngeklaut?", "akzent": "Das ist jetzt zu tun."},
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Kundenfrage der Woche:", "stempel": "„Unser Laptop\nist weg.\nWas jetzt?“", "nachsatz": "Gerade auf Reisen passiert's." },
+    { "typ": "statement", "dauer": 1.5, "text": "Erst prüfen,\ndann handeln.", "farbe": "gruen" },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "in Ruhe:", "karten": [
+      { "frage": "Verschlüsselt?", "antwort": "Gut. Dann sind die Daten meist geschützt." },
+      { "frage": "Unverschlüsselt?", "antwort": "In der Regel binnen 72 Stunden melden." },
+      { "frage": "In jedem Fall:", "antwort": "Vorfall notieren, Zugänge sperren." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "titel": "IT-Sicherheit – Passwort-Manager statt Klebezettel",
+  "format": "it-sicherheit",
+  "quellen": [
+    "Art. 32 Abs. 1 DSGVO (angemessene technische Maßnahmen) – nur Hintergrund, keine Rechtsaussage im Reel",
+    "BSI, Passwort-Manager (bsi.bund.de → Verbraucherinnen und Verbraucher → Accountschutz → Sichere Passwörter erstellen → Passwort-Manager)",
+    "Verbraucherzentrale, „Sind Passwort-Manager sinnvoll?“, Stand 09.12.2025: starkes, einzigartiges Master-Passwort; Zwei-Faktor aktivieren; Backups der Passwort-Datenbank; Test mit dem BSI Mitte 2025"
+  ],
+  "cover": {"kategorie": "IT-Sicherheit", "titel": "Passwort-\nManager", "akzent": "statt Klebezettel."},
+  "szenen": [
+    { "typ": "hook", "dauer": 2.5, "frage": "Hand aufs Herz:", "stempel": "„Die Passwörter\nkleben am\nMonitor.“" },
+    { "typ": "liste", "dauer": 3, "art": "nein", "punkte": ["Zettel am Monitor.", "Überall dasselbe.", "Liste in Excel."], "fazit": "…und jeder kann mitlesen." },
+    { "typ": "karten", "dauer": 6, "titel": "So geht's", "titelAkzent": "mit Manager:", "karten": [
+      { "frage": "Was ist das?", "antwort": "Ein verschlüsselter Tresor für alle Passwörter." },
+      { "frage": "Was merken?", "antwort": "Nur noch ein langes Master-Passwort." },
+      { "frage": "Noch sicherer?", "antwort": "Tresor mit Zwei-Faktor schützen." }
+    ] },
+    { "typ": "ende", "dauer": 3 }
+  ]
+}
